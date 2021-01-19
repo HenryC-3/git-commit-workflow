@@ -8,7 +8,7 @@
 	},
 	"config": {
 		"commitizen": {
-			"path": "node_modules/cz-customizable"
+			"path": "node_modules/cz-conventional-changelog"
 		}
 	},
 	"repository": {
@@ -23,7 +23,6 @@
 	"homepage": "https://github.com/HenryC-3/git-commit-workflow#readme",
 	"devDependencies": {
 		"commitizen": "^4.2.3",
-		"cz-conventional-changelog": "^3.3.0",
-		"cz-customizable": "^6.3.0"
+		"cz-conventional-changelog": "^3.3.0"
 	}
 }
