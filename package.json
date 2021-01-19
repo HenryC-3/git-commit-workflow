@@ -1,19 +1,28 @@
 {
-  "name": "git-commit-workflow",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"name": "git-commit-workflow",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"commit": "git-cz"
+	},
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HenryC-3/git-commit-workflow.git"
-  },
-  "author": "Henry",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HenryC-3/git-commit-workflow/issues"
-  },
-  "homepage": "https://github.com/HenryC-3/git-commit-workflow#readme"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HenryC-3/git-commit-workflow.git"
+	},
+	"author": "Henry",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/HenryC-3/git-commit-workflow/issues"
+	},
+	"homepage": "https://github.com/HenryC-3/git-commit-workflow#readme",
+	"devDependencies": {
+		"commitizen": "^4.2.3",
+		"cz-conventional-changelog": "^3.3.0"
+	}
 }
